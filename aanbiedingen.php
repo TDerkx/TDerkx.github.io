@@ -8,47 +8,21 @@
 				   
     <div id="wrapper"> 
         
-        <div id="content">
+    
+           <div id="content">
         
             <div id="path">
                 U bevindt zich hier: <a href="index.php">Home</a> 
-                &raquo <u>Introductiepagina</u>
+                &raquo <u>Aanbiedingen</u>
 
             </div>
-    
-            <div id="main">
+						
+    				<?php
+						include 'aanbiedingen_query.php'
+						?>
+ 
 
-                <h1>
-					Welkom op huisjestehuur.nl !</h1>
-    
-                <p>[informatie] </p>
-                    
-                <br />
-                
-                
-                <h1>
-
-				[Kop1]</h1>
-    
-                <p>[informatie] </p>
-				<h1>
-		
-						[Kop2]</h1>
-                
-                <div class="img_right">
-                    </div>
-
-                <p>
-                    [informatie] 
-                </p>
-                
-    
-				<p>
-                    &nbsp;</p>
-				<p>
-        <p>          
-				        
-            </div>
+        </div>
 
         </div>
         
@@ -79,8 +53,6 @@
 
 </div>
 
-<!-- einde index etc. -->
-    
     <div style="clear:both; display:block; height:100px"></div>
 </body> 
 </html>

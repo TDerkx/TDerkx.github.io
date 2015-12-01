@@ -2,58 +2,34 @@
 	<div id="page" style="width: 1000px; height: 800px"> <!-- 931/628 -->
 		<span style="visibility:hidden" >...weet niet hoe ik dit moet oplossen, dus dan maar zo </span>
 		<?php
+		ini_set('display_errors',0);
 		include 'header.html'
 		?>
 
 				   
     <div id="wrapper"> 
         
-        <div id="content">
+    
+           <div id="content">
         
             <div id="path">
                 U bevindt zich hier: <a href="index.php">Home</a> 
-                &raquo <u>Introductiepagina</u>
+                &raquo <u>Aanbiedingen</u>
 
             </div>
-    
-            <div id="main">
+						
+    				<?php
+						include 'aanbiedingen_query3.php';
+						print("<b><p><a href='inlog_aanbiedingen.php'>Ga terug voor een nieuwe poging</a></p></b>");
+						?>
+ 
 
-                <h1>
-					Welkom op huisjestehuur.nl !</h1>
-    
-                <p>[informatie] </p>
-                    
-                <br />
-                
-                
-                <h1>
-
-				[Kop1]</h1>
-    
-                <p>[informatie] </p>
-				<h1>
-		
-						[Kop2]</h1>
-                
-                <div class="img_right">
-                    </div>
-
-                <p>
-                    [informatie] 
-                </p>
-                
-    
-				<p>
-                    &nbsp;</p>
-				<p>
-        <p>          
-				        
-            </div>
+        </div>
 
         </div>
         
 						<?php
-						include 'navig.html'
+						include 'inlog_navig.php'
 						?>
 
 						<?php
@@ -79,8 +55,6 @@
 
 </div>
 
-<!-- einde index etc. -->
-    
     <div style="clear:both; display:block; height:100px"></div>
 </body> 
 </html>

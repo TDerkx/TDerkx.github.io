@@ -1,18 +1,28 @@
-<?php include 'header2.php'; ?>
-	<div id="page" style="width: 1000px; height: 800px"> <!-- 931/628 -->
-		<span style="visibility:hidden" >...weet niet hoe ik dit moet oplossen, dus dan maar zo </span>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+    <title>Vakantiehuisjes verhuur</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+		
+</head>
+<body>
+
+<div id="page" style="width: 931px; height: 628px">
+		
 		<?php
 		include 'header.html'
 		?>
-
+		<?php
+		include 'audio.html'
+		?>
 				   
     <div id="wrapper"> 
         
         <div id="content">
         
             <div id="path">
-                U bevindt zich hier: <a href="index.php">Home</a> 
-                &raquo <u>Introductiepagina</u>
+                U bevindt zich hier: <a href="">Home</a> 
+                » <a href="">Introductiepagina</a>
 
             </div>
     
@@ -63,12 +73,7 @@
 						<?php
 						include 'links.html'
 						?>
-						
-						<!-- conflict met andere scripts/harder geluid plotseling 
-						<?php
-						include 'audio.html'
-						?>
-						-->
+
         </div>
 
     </div>
@@ -79,8 +84,5 @@
 
 </div>
 
-<!-- einde index etc. -->
-    
-    <div style="clear:both; display:block; height:100px"></div>
-</body> 
+</body>
 </html>

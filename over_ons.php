@@ -12,42 +12,22 @@
         
             <div id="path">
                 U bevindt zich hier: <a href="index.php">Home</a> 
-                &raquo <u>Introductiepagina</u>
+								&raquo <u>Over ons</u>
 
             </div>
     
-            <div id="main">
+           <div id="main">
 
                 <h1>
-					Welkom op huisjestehuur.nl !</h1>
+				
+				Over ons</h1>
     
-                <p>[informatie] </p>
+                <p>Wij zijn Yves, Tom en Michel en wij hebben deze site gemaakt. <br />
+								Dit deden wij voor ons informatica project van periode C. <br />
+								Veel plezier ! </p>
                     
                 <br />
                 
-                
-                <h1>
-
-				[Kop1]</h1>
-    
-                <p>[informatie] </p>
-				<h1>
-		
-						[Kop2]</h1>
-                
-                <div class="img_right">
-                    </div>
-
-                <p>
-                    [informatie] 
-                </p>
-                
-    
-				<p>
-                    &nbsp;</p>
-				<p>
-        <p>          
-				        
             </div>
 
         </div>
@@ -64,11 +44,13 @@
 						include 'links.html'
 						?>
 						
+						
 						<!-- conflict met andere scripts/harder geluid plotseling 
 						<?php
 						include 'audio.html'
 						?>
 						-->
+
         </div>
 
     </div>
@@ -84,3 +66,4 @@
     <div style="clear:both; display:block; height:100px"></div>
 </body> 
 </html>
+

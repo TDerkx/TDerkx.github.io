@@ -1,0 +1,1 @@
+- Kan geen wachtwoord vergeten/mail() functie vanwege geen internetverbinding met mailserver mogelijk.

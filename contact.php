@@ -12,42 +12,23 @@
         
             <div id="path">
                 U bevindt zich hier: <a href="index.php">Home</a> 
-                &raquo <u>Introductiepagina</u>
+                &raquo <u>Contact</u>
 
             </div>
     
             <div id="main">
 
                 <h1>
-					Welkom op huisjestehuur.nl !</h1>
+								Welkom op huisjestehuur.nl !</h1>
     
-                <p>[informatie] </p>
+                <p>		Hier kan je contact opnemen en vragen stellen aan de beheerder van de site voor een eventuele upgrade naar verhuurder.<br />
+								<form method="post" action="mailto:yves.terzibasiyan0@gmail.com">
+    						<textarea rows="10" cols="80" wrap="physical" name="comments">Om een bericht te sturen, log eerst in.</textarea>
+								<p><a href="inloggen/login.php">&raquo Klik hier om in te loggen.</a></p>
                     
                 <br />
                 
-                
-                <h1>
-
-				[Kop1]</h1>
-    
-                <p>[informatie] </p>
-				<h1>
-		
-						[Kop2]</h1>
-                
-                <div class="img_right">
-                    </div>
-
-                <p>
-                    [informatie] 
-                </p>
-                
-    
-				<p>
-                    &nbsp;</p>
-				<p>
-        <p>          
-				        
+                   
             </div>
 
         </div>
@@ -64,11 +45,13 @@
 						include 'links.html'
 						?>
 						
-						<!-- conflict met andere scripts/harder geluid plotseling 
+		
+					<!-- conflict met andere scripts/harder geluid plotseling 
 						<?php
 						include 'audio.html'
 						?>
 						-->
+
         </div>
 
     </div>
