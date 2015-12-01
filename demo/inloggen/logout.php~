@@ -19,7 +19,7 @@ echo ("U bent succesvol uitgelogt!");
 session_destroy();
 include ("footer.php");
 ?>
-<a href="/Casus_vakantiehuisjes_2/demo/indexi.php">Klik hier om terug te gaan.</a>
+<a href="/Casus_vakantiehuisjes_2/demo/index.php">Klik hier om terug te gaan.</a>
 
 <?php
 include("footer.php");
