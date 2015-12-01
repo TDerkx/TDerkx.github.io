@@ -3,11 +3,10 @@
     <head>
         <link href="style.css" rel="stylesheet">
     </head>
-    <body>
-        
-        <div class="header">
+    <body>    
+        <div class="menu"> <!-- this contains the menu bar to switch between pictures -->
             <div class="container">
-                <div class="pic" id='pic1'>
+                <div class="pic" id='pic1'> <!-- these div classes are used in the jQuery to determine which picture is visible at a certain point -->
                     First Picture
                 </div>
                 <div class="pic" id='pic2'>
@@ -24,9 +23,8 @@
                 </div>
             </div>
         </div>
-        <div class="body">
-            <div class = 'pict' id="pict1" >
-                <div class="trick"></div>
+        <div class="main">
+            <div class = 'pict' id="pict1" > <!-- these div classes contain the pictures -->
                 <img src="images\slides\villa.jpg"/>
             </div>
             <div class = 'pict' id="pict2">

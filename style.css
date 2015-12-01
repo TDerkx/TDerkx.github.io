@@ -1,43 +1,59 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
-    Created on : 01-Dec-2015, 19:00:02
     Author     : s149211
 */
 
-/* General */
+/* main */
 
-.container {
-    width: 100%;
+//these variables are used to give the page some basic structure
+
+html * { //this ensures that all margins, paddings and borders are 0 unless otherwise specified  
+    margin: 0; 
+    padding: 0; 
+    border: 0;
 }
 
-
-/* Header */
-
-.header {
-    background-color: rgba(255, 255, 255, 0.95);
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
+body { //this sets the variables such as font-size for the body of the html document.
+    margin: 0.5em 0em 2em 0em; 
     
-    font-family: 'Oswald', sans-serif;
+    //the next four lines set the font size and family, and the height of a single line and how the text is positioned
+    font-size: 100%;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+    line-height: 1.1em;
+    text-align: center;
+    
+    background-color: #FFFA1D; //these three lines create the background of the webpage
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x;
+}
+
+/* menu */
+.menu {
+    background-color: rgba(255, 255, 255, 0.95); //this gives the header the correct color
+    border-bottom: 1px solid #ddd; // this creates the small dark border on the bottom of the header
+    border-top: 1px solid #ddd; // this creates a similar border on the top
+    
+    font-family: 'Oswald', sans-serif; //these three lines give the words in the header a font, a thickness and a size
     font-weight: 300;
-    
     font-size: 20px;
-    padding: 1em;
+    
+    padding: 1em; // this creates a small padding that is 1 times the font size.
+}
+.container {
+    width: 100%; //this ensures that the words fit into the entire width of the page
+}
+
+.pic {
+    display: inline-block; //this ensures that a group of words (a div) will not be cut up to fit the page
+    padding-left: 1em; // the next four lines ensure the words will have some space between them
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 
-/* Menu */ 
+/* main */ 
 
-.header .menu {
-    float: right;
-    list-style: none;
-    margin-bottom: 1em;
-}
-
+//these lines determine the size of the div that contains the images
 .pict{
     margin: 50px auto;
     height: 80%;
@@ -46,43 +62,11 @@ and open the template in the editor.
            
 }
 
-.pict img
-{
+//these lines ensure that the picture fits the width of the page
+.pict img{
   max-width:100%; 
   max-height:100%;
   margin:auto;
   display:block;
 }
-.pic {
-    display: inline-block;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
 
-html * { 
-    margin: 0; 
-    padding: 0; 
-    border: 0;
-}
-
-body {
-    margin: 0.5em 0em 2em 0em;
-    
-    font-size: 100%;
-    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
-    line-height: 1.1em;
-    text-align: center;
-    
-    background-color: #FFFA1D;
-    background-image: url(../images/background.png);
-    background-repeat: repeat-x;
-}
-
-#page { 
-    width: 70%; 
-    text-align: left;  
-    margin-left: auto; 
-    margin-right: auto;  
-} 
